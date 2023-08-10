@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - PUX Submission page - Prototype</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Demo Content -->
+<!-- <!DOCTYPE html>? -->
+<html>
+<head>
+	<title>New submission</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+ 
+  <script src="main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Linden+Hill|Lora|Merriweather" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+		<div class="searchwrap">
+      <div class=searchcontent>
+			<h1>What type of content do you want to add?</h1>
+
+      <input id="input" placeholder="Search content type "type="text" onfocus="this.placeholder = ''"
+onblur="this.placeholder = 'Search content type'" /><br>
+      
+  <span class="searchicon">
+        <i class="fa fa-search"></i>
+      </span>
+      
+    </div>
+		</div>
+		<div id="snackbar">
+			You have successfully selected your <b>template</b>
+		</div>
+    
+    <div class="resultscontainer">
+    <div class="resultswrap">
+		<div class="family-box">
+	  <h4><i class="fas fa-book-open"></i>&nbsp Submissions</h4>
+		<hr>
+    <h5>Contribution to journal</h5>
+		 <a>
+		<div class="mix output" onclick="myFunction()">
+			
+			<p class="title">Web Projects </p>
+      <p class="subtitle">Research output > Contribution to journal:</p>
+			<p class="description">Short commentary/contribution to debate in a scientific publication, often about former printed articles.</p>
+     <button class="add"><a href="project.html">Add></a></button>
+      
+		</div></a>
+  
+		<a>
+			<div class="mix output" onclick="myFunction()">
+				
+				<p class="title">App Projects </p>
+		  <p class="subtitle">Research output > Contribution to journal:</p>
+				<p class="description">Short commentary/contribution to debate in a scientific publication, often about former printed articles.</p>
+		 <button class="add"><a href="project.html">Add></a></button>
+		  
+			</div></a>
+
+			<a>
+				<div class="mix output" onclick="myFunction()">
+					
+					<p class="title">AI/ML  Projects </p>
+			  <p class="subtitle">Research output > Contribution to journal:</p>
+					<p class="description">Short commentary/contribution to debate in a scientific publication, often about former printed articles.</p>
+			 <button class="add">Add ></button>
+			  
+				</div></a>
+           
+				<a>
+					<div class="mix output" onclick="myFunction()">
+						
+						<p class="title">Blockchain Project </p>
+				  <p class="subtitle">Research output > Contribution to journal:</p>
+						<p class="description">Short commentary/contribution to debate in a scientific publication, often about former printed articles.</p>
+				 <button class="add">Add ></button>
+				  
+					</div></a>
+    
+    <h5>Non-textual form</h5>
+    <a>
+		<div class="mix output" onclick="myFunction()">
+			<p class="subtitle">Non-textual form:</p>
+			<p class="title">Software</p>
+			<p class="description">Standalone software for execution of specific tasks.</p>
+			<button class="add">Add ></button>
+		</div></a> <a>
+		<div class="mix output" onclick="myFunction()">
+			<p class="subtitle">Non-textual form:</p>
+			<p class="title">Data set/database</p>
+			<p class="description">A collection of structured data (measurements, observations, etc.), in a specific form, as foundation for a spec...</p>
+			<button class="add">Add ></button>
+		</div></a>
+		 <a>
+		<div class="mix output" onclick="myFunction()">
+			<p class="subtitle">Non-textual form:</p>
+			<p class="title">Digital or Visual Projects</p>
+			<p class="description">E.g. podcasts, animations, photos, sound recordings.</p>
+			<button class="add">Add ></button>
+		</div></a> <a>
+		<div class="mix output" onclick="myFunction()">
+			<p class="subtitle">Non-textual form:</p>
+			<p class="title">Design</p>
+			<p class="description">Design in various forms.</p>
+			<button class="add">Add ></button>
+		</div></a> <a>
+		
+			<div class="family-box">
+
+		<div class="mix activity" onclick="myFunction()">
+			<p class="subtitle">Publication peer-review and editorial work:</p>
+			<p class="title">Editor of unfinished research anthology/collection</p>
+			<p class="description">Continuous editorial work relating to book series, anthologies, and reference works. Editorial work related to a singular book or anthology should be registered as a publication.</p>
+			<button class="add">Add ></button>
+      </div>
+        </a> 
+        
+        
+            <a>
+		<div class="mix activity" onclick="myFunction()">
+			<p class="subtitle">Publication peer-review and editorial work:</p>
+			<p class="title">Peer review of manuscripts</p>
+			<p class="description">Please register activities regarding peer reviewing of manuscripts e.g. articles for national or international journals, books, research applications, or similar.</p>
+			<button class="add">Add ></button>
+      </div>
+        </a> 
+ 
+		</div>
+			<div class="family-box">
+		<h4><i class="fas fa-box-open"></i>&nbspProject</h4>
+		<hr>
+		<a>
+		<div class="mix project" onclick="myFunction()">
+			<p class="subtitle">Project types:</p>
+			<p class="title">Research project</p>
+			<p class="description"></p>
+		</div></a> <a>
+		<div class="mix project" onclick="myFunction()">
+			<p class="subtitle">Project types:</p>
+			<p class="title">Consultancy project</p>
+			<p class="description"></p>
+		</div></a>
+        <a>
+		<div class="mix project" onclick="myFunction()">
+			<p class="subtitle">Project types:</p>
+			<p class="title">Other project</p>
+			<p class="description"></p>
+		</div></a> 
+		</div>
+	
+    </div>
+      </div>
+    </div>
+	</div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
